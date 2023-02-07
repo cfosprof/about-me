@@ -6,16 +6,6 @@ let userName = prompt('What is your name?')
 alert(`Welcome to my site ${userName}, let's play a guessing game.. please answer yes/y or no/n`);
 //todo prompt 5 yes/no or y/n questions when they are correct or in correct
 
-// if (!validAnswers.includes(questionOneGuess.toLowerCase())) {
-//   alert(`You answered ${questionOneGuess}, and it is not a valid answer. Please enter a valid yes/y no/n answer`);
-// } else if(!rightAnswer.includes(questionOneGuess.toLowerCase())) {
-//   // console.log('That is incorrect');
-//   alert('That is incorrect');
-// } else {
-//   // console.log('Great Guess');
-//   alert('Great Guess');
-// }
-
 function evalAnswer(question, rightAnswer) {
   let userAnswer = prompt(question);
   let validAnswer = ['yes', 'y', 'no', 'n',];
