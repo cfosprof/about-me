@@ -17,7 +17,7 @@ alert(`Welcome to my site ${userName}, let's play a guessing game.. please answe
 // }
 
 function evalAnswer(question, rightAnswer) {
-  let userAnswer = prompt(question)
+  let userAnswer = prompt(question);
   let validAnswer = ['yes', 'y', 'no', 'n',];
   // let rightAnswer = ['yes', 'y'];
   while (!validAnswer.includes(userAnswer.toLowerCase())) {
@@ -43,6 +43,6 @@ evalAnswer('Are prompt and alert boxes annoying?', ['yes', 'y']);
 
 evalAnswer('Should I have skipped lunch?', ['no', 'n']);
 
-// //todo: give them afinal message with their name in the alert
+//todo: give them afinal message with their name in the alert
 
 alert(`Thanks for playing ${userName}!`);
