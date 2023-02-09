@@ -68,7 +68,7 @@ function evalAnswer(question, rightAnswer, validAnswers) {
 }
 
 function guessAge(answer) {
-  let userGuess = prompt('what is my age?')
+  let userGuess;
   let attempts = 0;
 
   while (attempts < 4) {
