@@ -99,24 +99,24 @@ function guessAge(answer) {
 
 
 
-evalAnswer('Do I have a sister', ['yes', 'y'], ['yes', 'y', 'no', 'n', "no answer", '', '']);
+evalAnswer('Do I have a sister', ['yes', 'y'], ['yes', 'y', 'no', 'n', "no answer", '', '', null]);
 
-evalAnswer('Am I cool', ['no', 'n'], ['yes', 'y', 'no', 'n', 'no answer','', '']);
+evalAnswer('Am I cool', ['no', 'n'], ['yes', 'y', 'no', 'n', 'no answer','', '', null]);
 
-evalAnswer('Is the earth flat?', ['no', 'n'], ['yes', 'y', 'no', 'n', 'no answer','', '']);
+evalAnswer('Is the earth flat?', ['no', 'n'], ['yes', 'y', 'no', 'n', 'no answer','', '', null]);
 
-evalAnswer('Are prompt and alert boxes annoying?', ['yes', 'y'], ['yes', 'y', 'no', 'n', 'no answer','', '']);
+evalAnswer('Are prompt and alert boxes annoying?', ['yes', 'y'], ['yes', 'y', 'no', 'n', 'no answer','', '', null]);
 
-evalAnswer('Should I have skipped lunch?', ['no', 'n'], ['yes', 'y', 'no', 'n', 'no answer','', '']);
+evalAnswer('Should I have skipped lunch?', ['no', 'n'], ['yes', 'y', 'no', 'n', 'no answer','', '', null]);
 
 guessAge(31);
 
 
 // still trying to figure out how to accewpt any string value in the answer without rewriting function
-evalAnswer('What are some of my favorite movies?', ['Without a Paddle','accepted', 'inception'], ['Without a Paddle','accepted', 'inception', 'no answer','', '']);
+evalAnswer('What are some of my favorite movies?', ['without a paddle','accepted', 'inception'], ['without a paddle','accepted', 'inception', 'no answer','', '', null]);
 
 
 //todo: give them afinal message with their name in the alert
 
-alert(`Thanks for playing ${userName}! You scored ${score}/5 today, maybe you can do a little better tomorrow?`);
+alert(`Thanks for playing ${userName}! You scored ${score}/7 today, maybe you can do a little better tomorrow?`);
 
