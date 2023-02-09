@@ -49,44 +49,7 @@ function evalAnswer(question, rightAnswer, validAnswers) {
 }
 
 
-// let score = 0;
-// function evalAnswer(question, rightAnswer, validAnswers) {
-//   let userAnswer = prompt(question);
-//   //Reject invalid answer types
-//   let isValid = false;
-//   for (let i = 0; i < validAnswers.length; i++) {
-//     if (validAnswers[i] === userAnswer.toLowerCase()) {
-//       isValid = true;
-//       break;
-//     }
-//   }
-//   while (!isValid) {
-//     userAnswer = prompt(`You answered ${userAnswer}, and it is not a valid answer. Please enter a valid yes/y no/n answer`);
-//     for (let i = 0; i < validAnswers.length; i++) {
-//       if (validAnswers[i] === userAnswer.toLowerCase()) {
-//         isValid = true;
-//         break;
-//       }
-//     }
-//   }
-//   //log number tries and check if answer is right or wrong
-//   for (let tryNumber = 0; tryNumber < 6; tryNumber ++){
-//     let isRight = false;
-//     for (let i = 0; i < rightAnswer.length; i++) {
-//       if (rightAnswer[i] === userAnswer.toLowerCase()) {
-//         isRight = true;
-//         break;
-//       }
-//     }
-//     if (!isRight) {
-//       prompt(`${userAnswer} is incorrect. Please try again. This is try number ${tryNumber} of six.`);
-//     } else {
-//       alert('Great Guess');
-//       tryNumber += 6;
-//       score++;
-//     }
-//   }
-// }
+
 
 evalAnswer('Do I have a sister', ['yes', 'y'], ['yes', 'y', 'no', 'n',]);
 
