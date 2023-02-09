@@ -77,7 +77,7 @@ evalAnswer('Are prompt and alert boxes annoying?', ['yes', 'y'], ['yes', 'y', 'n
 
 evalAnswer('Should I have skipped lunch?', ['no', 'n'], ['yes', 'y', 'no', 'n',]);
 
-evalAnswer('How old am I?', parseInt(31), )
+
 
 
 //todo: give them afinal message with their name in the alert
