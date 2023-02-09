@@ -38,3 +38,8 @@ img {
   padding:3% 0;
 }
 
+ol {
+  list-style-type: decimal;
+  margin: 0;
+  padding: 0;
+}
