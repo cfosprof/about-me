@@ -67,6 +67,27 @@ function evalAnswer(question, rightAnswer, validAnswers) {
   }
 }
 
+function guessAge(answer) {
+  let userGuess = prompt('what is my age?')
+  let attempts = 0;
+
+  while (attempts < 4) {
+    userGuess = parseInt(prompt('Guess my age:'));
+    attempts++;
+    if (userGuess === answer) {
+      alert('You are right and I am getting old');
+      break;
+    } else if (userGuess > answer) {
+      alert(`${userGuess} is getting too high, and be careful this is getting insulting.`);
+    } else if (userGuess < answer) {
+      alert('That is too low');
+    }
+  }
+  if (attempts === 4 && userGuess !== answer) {
+    alert(`You ran out of attempts. The correct answer was ${answer}`);
+  }
+}
+
 evalAnswer('Do I have a sister', ['yes', 'y'], ['yes', 'y', 'no', 'n',]);
 
 evalAnswer('Am I cool', ['no', 'n'], ['yes', 'y', 'no', 'n',]);
@@ -77,7 +98,7 @@ evalAnswer('Are prompt and alert boxes annoying?', ['yes', 'y'], ['yes', 'y', 'n
 
 evalAnswer('Should I have skipped lunch?', ['no', 'n'], ['yes', 'y', 'no', 'n',]);
 
-
+guessAge(31);
 
 
 //todo: give them afinal message with their name in the alert
