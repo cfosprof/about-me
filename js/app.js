@@ -99,7 +99,7 @@ function guessAge(answer) {
 
 
 
-evalAnswer('Do I have a sister', ['yes', 'y'], ['yes', 'y', 'no', 'n',]);
+// evalAnswer('Do I have a sister', ['yes', 'y'], ['yes', 'y', 'no', 'n',]);
 
 // evalAnswer('Am I cool', ['no', 'n'], ['yes', 'y', 'no', 'n',]);
 
@@ -111,7 +111,9 @@ evalAnswer('Do I have a sister', ['yes', 'y'], ['yes', 'y', 'no', 'n',]);
 
 // guessAge(31);
 
-evalAnswer('What are some of my favorite movies?', ['Without a Paddle','accepted', 'inception']);
+
+// still trying to figure out how to accewpt any string value in the answer without rewriting function
+evalAnswer('What are some of my favorite movies?', ['Without a Paddle','accepted', 'inception'], ['Without a Paddle','accepted', 'inception']);
 
 
 //todo: give them afinal message with their name in the alert
