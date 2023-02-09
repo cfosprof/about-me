@@ -41,5 +41,11 @@ img {
 ol {
   list-style-type: decimal;
   margin: 0;
-  padding-left: 40px;
+  padding-left: 24px;
+}
+
+ul {
+  list-style-type: square;
+  margin: 0;
+  padding-left: 24px;
 }
