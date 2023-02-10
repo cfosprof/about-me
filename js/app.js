@@ -7,7 +7,7 @@ alert(`Welcome to my site ${userName}, let's play a guessing game.. please answe
 //todo prompt 5 yes/no or y/n questions when they are correct or in correct
 
 
-// this is my original function that used the includes() method
+// this iss my original function that used the includes() method
 // let score = 0;
 // function evalAnswer(question, rightAnswer, validAnswers) {
 //   let userAnswer = prompt(question);
